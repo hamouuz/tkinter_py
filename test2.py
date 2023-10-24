@@ -5,7 +5,7 @@ def inscription():
     mdp = entry_mdp.get()
     email = entry_email.get()
 
-    # Afficher les données sur le terminal
+    
     print("Pseudo:", pseudo)
     print("Mot de passe:", mdp)
     print("Email:", email)
@@ -14,7 +14,7 @@ def inscription():
 fenetre = tk.Tk()
 fenetre.title("Inscription")
 
-# Créer et placer les widgets dans la fenêtre
+
 label_pseudo = tk.Label(fenetre, text="Nom:")
 label_pseudo.grid(row=0, column=0, padx=10, pady=5, sticky=tk.W)
 
@@ -38,5 +38,5 @@ entry_mdp.grid(row=1, column=1, padx=10, pady=5)
 bouton_inscription = tk.Button(fenetre, text="Inscription", command=inscription)
 bouton_inscription.grid(row=3, column=0, columnspan=2, pady=10)
 
-# Lancer la boucle principale
+
 fenetre.mainloop()
