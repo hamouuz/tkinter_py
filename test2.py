@@ -5,7 +5,7 @@ def inscription():
     mdp = entry_mdp.get()
     email = entry_email.get()
 
-    
+     
     print("Pseudo:", pseudo)
     print("Mot de passe:", mdp)
     print("Email:", email)
